@@ -1,0 +1,22 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;      /* Centers content vertically */
+}
+
+.SearchBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;            /* Set a fixed or max-width for the container */
+    padding: 20px;           /* Optional padding for better spacing */
+    /* Optional border to visualize the container */
+    
+       /* Adjust this value to move content upwards */
+       margin-bottom: 25px;
+}
